@@ -116,7 +116,9 @@ nav ul li {
 /* Hero section */
 
 .bio-container {
-  height: 60vh;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
 
   padding: 5rem 0 3rem 0;
 }
@@ -219,7 +221,7 @@ nav ul li {
 .projects {
   margin: 0 auto;
   padding: 0.5rem 0 0.9375rem 0;
-  background-color: #25557c;
+
 
 }
 
