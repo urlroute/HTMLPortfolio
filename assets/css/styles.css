@@ -122,9 +122,6 @@ nav ul li {
 
   padding: 5rem 0 3rem 0;
 
-  background: rgb(101,254,255);
-  background: linear-gradient(185deg, rgba(101,254,255,1) 35%, rgba(0,212,255,1) 100%),url(assets/images/zigzag.svg);
-
 
   /* background: linear-gradient(to right,rgba(0,119,181,.8),rgba(0,119,181,.8)),url(assets/images/zigzag.svg); */
 }
@@ -151,6 +148,12 @@ nav ul li {
   font-size: 32px;
   text-align: center;
 }
+
+
+.checkoutPortfolio {
+  color: red;
+}
+
 
 .avatar-container {
   margin: -2rem;
