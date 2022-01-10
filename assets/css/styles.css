@@ -116,11 +116,11 @@ nav ul li {
 /* Hero section */
 
 .bio-container {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 80rem;
   max-height: 120rem;
 
-  padding: 5rem 0 3rem 0;
+  padding: 3rem 0 10rem 0;
 
 
   /* background: linear-gradient(to right,rgba(0,119,181,.8),rgba(0,119,181,.8)),url(assets/images/zigzag.svg); */
@@ -134,7 +134,7 @@ nav ul li {
 
 .bio-title {
   padding-bottom: 1.5rem;
-  font-size: 48px;
+  font-size: 42px;
   text-align: center;
 }
 
@@ -152,6 +152,8 @@ nav ul li {
 
 .checkoutPortfolio {
   color: red;
+  text-align: center;
+  margin-top: 265px;
 }
 
 
@@ -230,8 +232,6 @@ nav ul li {
 .projects {
   margin: 0 auto;
   padding: 0.5rem 0 0.9375rem 0;
-
-
 }
 
 
@@ -247,9 +247,6 @@ nav ul li {
     -1px 1px 0 #778899,
     1px 1px 0 #778899;  
 }
-
-
-
 
 
 .grid-container-360px {
