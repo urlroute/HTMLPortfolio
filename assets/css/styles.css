@@ -121,7 +121,7 @@ nav ul li {
 .bio-diction p,
 .bio-container h2 {
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .bio-title {
@@ -142,7 +142,7 @@ nav ul li {
 
 .portfolio-title {
   /* margin: 0.5rem 0 0 0; */
-  padding: 0.5rem 0 1rem 0;
+  padding: 1rem 0 0.5rem 0;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 600;
@@ -187,7 +187,7 @@ nav ul li {
 }
 
 .about_content-main {
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
 }
 
 .about_content-title {
