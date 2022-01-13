@@ -130,6 +130,7 @@ nav ul li {
   padding-bottom: 1.5rem;
   font-size: 42px;
   text-align: center;
+  color: #272727;
 }
 
 .bio-text-container {
@@ -143,12 +144,11 @@ nav ul li {
 }
 
 .portfolio-title {
-  /* margin: 0.5rem 0 0 0; */
   padding: 1rem 0 0.5rem 0;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 600;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: #272727;
 }
 
@@ -193,7 +193,6 @@ nav ul li {
 }
 
 
-
 .about_content-details-para {
   max-width: 43rem;
   margin: 0 auto;
@@ -203,18 +202,30 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
+
+.zero-space {
+  padding: 0 0 0 0;
+  margin: 0 0 -1.5rem 0;
+  font-size: 1px;
+  /* height: 3.5rem; */
+}
+
+
 /* Skills section */
 .about_content-skills {
   padding: 1rem 0 1rem 0;
+  font-size: 1px;
   max-width: 47rem;
   margin: 0 auto;
 }
+
 
 .skills {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0.5rem 0 0 2rem;
+  border: 2px blue solid;
 }
 
 .skills_skill {
