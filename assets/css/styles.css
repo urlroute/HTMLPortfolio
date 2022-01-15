@@ -127,7 +127,6 @@ nav ul li {
 }
 
 .bio-title {
-  padding-bottom: 1.5rem;
   font-size: 42px;
   text-align: center;
   color: #272727;
@@ -194,7 +193,7 @@ nav ul li {
 
 
 .about_content-details-para {
-  max-width: 43rem;
+  max-width: 1100px;
   margin: 0 auto;
   font-size: 1.4rem;
   color: #272727;
@@ -205,11 +204,14 @@ nav ul li {
 
 .zero-space {
   padding: 0 0 0 0;
-  margin: 0 0 -1.5rem 0;
+  margin: 0 0 -.5rem 0;
   font-size: 1px;
   /* height: 3.5rem; */
 }
 
+/* .about {
+  scroll-margin-bottom: -90rem;
+} */
 
 /* Skills section */
 .about_content-skills {
@@ -225,7 +227,6 @@ nav ul li {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 0.5rem 0 0 2rem;
-  border: 2px blue solid;
 }
 
 .skills_skill {
@@ -238,13 +239,15 @@ nav ul li {
   font-weight: 600;
   color: #666;
 }
-
 /* Skills section ends */
+
 
 /* Projects section */
 .projects {
+  scroll-margin-top: 50px;
   margin: 0 auto;
-  padding: 0.5rem 0 0.9375rem 0;
+  padding: 30px 0 0 0;
+  /* padding: 0.5rem 0 0.9375rem 0; */
   /* border: 2px blue solid; */
 }
 
@@ -253,6 +256,7 @@ nav ul li {
   grid-template-columns: repeat(auto-fit, 22.5rem);
   gap: 1.225rem;
   justify-content: center;
+  margin: 0 0 2rem 0;
 }
 
 .project-pic-360px {
