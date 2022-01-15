@@ -17,124 +17,126 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav>
-    <h1>HTML Email Developer</h1>
-    <ul class="navigation">
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name="menu-outline"></ion-icon>
-      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-    </button>
-  </nav>
+  <div class="container">
+    <!-- Navbar -->
+    <nav>
+      <h1>HTML Email Developer</h1>
+      <ul class="navigation">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
 
-  <!-- Hero Section -->
-  <section class="bio-container" id="hello">
-    <div>
-      <div class="bio-diction">
-        <h2 class="bio-title" style="margin: 1rem 0 1.5rem 0">Hello, I am Christopher</h2>
-      </div>
+    <!-- Hero Section -->
+    <section class="center bio-container" id="hello">
+      <div>
+        <div class="bio-diction">
+          <h2 class="bio-title" style="margin: 1rem 0 1.5rem 0">Hello, I am Christopher</h2>
+        </div>
 
-      <div class="avatar-container">
-        <div class="avatar">
-          <img src="assets/images/avataaars (2).svg" alt="Avatar showing Chris's bald head" loading="lazy"
-            class="hero-img" />
+        <div class="avatar-container">
+          <div class="avatar">
+            <img src="assets/images/avataaars (2).svg" alt="Avatar showing Chris's bald head" loading="lazy"
+              class="hero-img" />
+          </div>
+        </div>
+
+        <div class="bio-diction">
+          <h2 class="bio-title" style="margin: 2.5rem 0 0 0">I like to code HTML Emails and Landing Pages.</h2>
         </div>
       </div>
+    </section>
 
-      <div class="bio-diction">
-        <h2 class="bio-title" style="margin: 2.5rem 0 0 0">I like to code HTML Emails and Landing Pages.</h2>
+
+    <!-- Pictures 360px -->
+    <section class="horizontal projects" id="projects">
+
+      <!-- Experiment -->
+      <h2 class="bio-title" style="margin: -0.47rem 0 0.25rem 0">Come checkout my portfolio</h2>
+
+      <div class="grid-container-360px">
+        <!-- one -->
+        <div>
+          <a href=""><img src="assets/portfolio/rollback2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
+
+        <!-- two -->
+        <div>
+          <a href=""><img src="assets/portfolio/newsletter2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
+
+        <!-- three -->
+        <div>
+          <a href=""><img src="assets/portfolio/clover2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
+
+        <!-- four -->
+        <div>
+          <a href=""><img src="assets/portfolio/recall2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
+
+        <!-- five -->
+        <div>
+          <a href=""><img src="assets/portfolio/Moraine.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
+
+        <!-- six -->
+        <div>
+          <a href=""><img src="assets/portfolio/DMV.png" alt="" loading="lazy" class="project-pic-360px"></a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- End of Pictures 360px -->
 
-
-  <!-- Pictures 360px -->
-  <section class="projects" id="projects">
-
-    <!-- Experiment -->
-    <h2 class="bio-title" style="margin: -0.47rem 0 0.25rem 0">Come checkout my portfolio</h2>
-
-    <div class="grid-container-360px">
-      <!-- one -->
-      <div>
-        <a href=""><img src="assets/portfolio/rollback2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+    <section class="center about-skills">
+      <!-- One Column Mode -->
+      <div class="zero-space" style="margin: 0 0 0.125rem 0">
+        <h2 class="bio-title">About</h2>
       </div>
 
-      <!-- two -->
-      <div>
-        <a href=""><img src="assets/portfolio/newsletter2.png" alt="" loading="lazy" class="project-pic-360px"></a>
+      <!-- About me -->
+        <a href="#" class="about" id="about"></a>
+        <div class="about_content-details">
+          <p class="about_content-details-para">I would like to join a company that wants to hire a remote HTML Email
+            Developer. I like to create HTML emails and review them to ensure they match the design specificaiton. I am
+            self
+            motivated, reliable and have problem-solving skills.</p>
+          <p class="about_content-details-para">I want to be an HTML developer that contributes to the success of your
+            company.</p>
+        </div>
+
+      <!-- End of About me -->
+
+      <!-- Skills section -->
+      <div style="margin: 0 0 -0.75rem 0"><a href="#" id="skills">
+          <h2 class="bio-title">Skills</h2>
+        </a></div>
+      <div class="about_content-skills">
+        <ul class="skills">
+          <li class="skills_skill"><span>HTML</span></li>
+          <li class="skills_skill"><span>CSS</span></li>
+          <li class="skills_skill"><span>SASS</span></li>
+          <li class="skills_skill"><span>JavaScript</span></li>
+          <li class="skills_skill"><span>Sass</span></li>
+          <li class="skills_skill"><span>Photoshop</span></li>
+          <li class="skills_skill"><span>Google Analytics</span></li>
+          <li class="skills_skill"><span>Visual Studio Code</span></li>
+          <li class="skills_skill"><span>Litmus</span></li>
+          <li class="skills_skill"><span>Mail Chimp</span></li>
+        </ul>
       </div>
-
-      <!-- three -->
-      <div>
-        <a href=""><img src="assets/portfolio/clover2.png" alt="" loading="lazy" class="project-pic-360px"></a>
-      </div>
-
-      <!-- four -->
-      <div>
-        <a href=""><img src="assets/portfolio/recall2.png" alt="" loading="lazy" class="project-pic-360px"></a>
-      </div>
-
-      <!-- five -->
-      <div>
-        <a href=""><img src="assets/portfolio/Moraine.png" alt="" loading="lazy" class="project-pic-360px"></a>
-      </div>
-
-      <!-- six -->
-      <div>
-        <a href=""><img src="assets/portfolio/DMV.png" alt="" loading="lazy" class="project-pic-360px"></a>
-      </div>
-    </div>
-  </section>
-  <!-- End of Pictures 360px -->
-
-  <section class="about-skills">
-    <!-- One Column Mode -->
-    <div class="zero-space" style="margin: 0 0 0.125rem 0">
-      <h2 class="bio-title">About</h2>
-    </div>
-
-    <!-- About me -->
-
-    <a href="#" class="about" id="about"></a>
-    <div class="about_content-details">
-      <p class="about_content-details-para">I would like to join a company that wants to hire a remote HTML Email
-        Developer. I like to create HTML emails and review them to ensure they match the design specificaiton. I am self
-        motivated, reliable and have problem-solving skills.</p>
-      <p class="about_content-details-para">I want to be an HTML developer that contributes to the success of your
-        company.</p>
-    </div>
-    <!-- End of About me -->
-
-    <!-- Skills section -->
-    <div style="margin: 0 0 -0.75rem 0"><a href="#" id="skills">
-        <h2 class="bio-title">Skills</h2>
-      </a></div>
-    <div class="about_content-skills">
-      <ul class="skills">
-        <li class="skills_skill"><span>HTML</span></li>
-        <li class="skills_skill"><span>CSS</span></li>
-        <li class="skills_skill"><span>SASS</span></li>
-        <li class="skills_skill"><span>JavaScript</span></li>
-        <li class="skills_skill"><span>Sass</span></li>
-        <li class="skills_skill"><span>Photoshop</span></li>
-        <li class="skills_skill"><span>Google Analytics</span></li>
-        <li class="skills_skill"><span>Visual Studio Code</span></li>
-        <li class="skills_skill"><span>Litmus</span></li>
-        <li class="skills_skill"><span>Mail Chimp</span></li>
-      </ul>
-    </div>
-  </section>
+    </section>
 
 
 
-  <!-- Contact section -->
-  <!-- <section class="contact" id="contact">
+    <!-- Contact section -->
+    <!-- <section class="contact" id="contact">
     <div class="portfolio-title">Get In Touch With Me</div>
     <div class="contact-form-container">
       <div class="contact-form">
@@ -160,17 +162,17 @@
     </div>
   </section> -->
 
-  <!-- Footer section -->
-  <footer>
-    <p class="copy">&copy; Copyright 2021</p>
-    <p class="copy">
-      Built with &#x2661; by
-      <a href="#">xyz</a>
-    </p>
-  </footer>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#">xyz</a>
+      </p>
+    </footer>
 
 
-  <!-- Scroll to top
+    <!-- Scroll to top
   <i class="scroll-up" id="scroll-up"
         ><img
           src="assets/icons/icons8-upward-arrow.gif"
@@ -208,13 +210,14 @@
     </div> -->
 
 
-  <!-- KEEP THE FOLLOWING SCRIPTS -->
-  <!-- Website scripts -->
-  <script src="assets/js/app.js"></script>
+    <!-- KEEP THE FOLLOWING SCRIPTS -->
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
 
-  <!-- Ion icons scripts -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </div>
 </body>
 
 </html>
