@@ -10,7 +10,7 @@ body {
   height: 100vh;
   color: #f4f4f4;
   line-height: 1.6;
-  /* overflow: hidden; */
+  overflow: hidden;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -95,7 +95,7 @@ section#home {
 }
 
 div#projects {
-  background: url('../images/HTML.jpg') no-repeat center center/cover;
+  background: url('../images/triangle2.png') no-repeat center center/cover;
   ;
 }
 
@@ -192,6 +192,17 @@ section#skills {
   scroll-snap-align: center;
 }
 
+.table-h2 {
+
+}
+
+.table-bio-title {
+  font-size: 42px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #f4f4f4;
+}
 
 .grid-container-360px {
   max-width: 100%;
