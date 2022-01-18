@@ -20,3 +20,11 @@ Photo by <a href="https://unsplash.com/@lorenzoherrera?utm_source=unsplash&utm_m
   neo
   visual studio code - turquoize font
   Photo by Neo from Pexels
+
+
+
+  blue acrylic
+  Photo by Steve Johnson from Pexels
+
+  bluePhoto by <a href="https://unsplash.com/@micahboswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Micah Boswell</a> on <a href="https://unsplash.com/s/photos/blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
